@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int i,num,power,ans=1;
+    printf ("Enter the number: ");
+    scanf ("%d",&num);
+    printf ("Enter the power: ");
+    scanf ("%d",&power);
+    for (i=1; i<=power; i++)
+    {
+        ans*=num;
+    }
+    printf ("\nResult of %d^%d = %d",num,power,ans);
+    return 0;
+}

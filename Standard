@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int base,exp;
+    long long int result;
+    printf ("Enter the number: ");
+    scanf ("%d",&base);
+    printf ("Enter the power: ");
+    scanf ("%d",&exp);
+    result = pow(base,exp);
+    printf ("Result of %d^%d = %lld\n",base,exp,result);
+    return 0;
+}

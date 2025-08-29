@@ -1,0 +1,13 @@
+#include <stdio.h>
+long int square (int n)
+{
+    return n*n;
+}
+int main()
+{
+    int n;
+    printf("Enter an integer number: ");
+    scanf("%d",&n);
+    printf("Square of the number: %ld\n",square(n));
+    return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+long int cube (int n)
+{
+    return n*n*n;
+}
+int main()
+{
+    int n;
+    printf("Enter an integer number: ");
+    scanf("%d",&n);
+    printf("Cube of the number: %ld\n",cube(n));
+    return 0;
+}
